@@ -200,6 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207533752}
   - component: {fileID: 207533751}
+  - component: {fileID: 207533753}
   m_Layer: 0
   m_Name: VC4
   m_TagString: Untagged
@@ -223,12 +224,12 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 8
+  m_Priority: 12
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 530095831}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 30
+    FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -249,7 +250,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207533750}
-  m_LocalRotation: {x: 0.097801216, y: -0.41217256, z: 0.044555068, w: 0.90474504}
+  m_LocalRotation: {x: 0.09780122, y: -0.41217262, z: 0.04455507, w: 0.90474504}
   m_LocalPosition: {x: 11.9, y: 4.45, z: -10.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -257,6 +258,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &207533753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207533750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca762221f5224244a498e1dce99b195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cam: {fileID: 0}
 --- !u!1 &348813439
 GameObject:
   m_ObjectHideFlags: 3
