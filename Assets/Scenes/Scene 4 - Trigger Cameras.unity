@@ -612,11 +612,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &348687810 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9053090411912054622, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
-  m_PrefabInstance: {fileID: 449817741}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &446319012
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +671,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446319012}
-  m_LocalRotation: {x: 0.06332194, y: 0.87270683, z: -0.11767751, w: 0.4696011}
+  m_LocalRotation: {x: 0.06332193, y: 0.87270683, z: -0.11767752, w: 0.46960106}
   m_LocalPosition: {x: -6.076573, y: 3, z: -29.98854}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -691,6 +686,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
+      propertyPath: _assignedCamera
+      value: 
+      objectReference: {fileID: 1341536344}
     - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
       propertyPath: _cameras.Array.size
       value: 4
@@ -917,7 +916,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009374221}
-  m_LocalRotation: {x: -0.04646054, y: 0.95108247, z: -0.17807907, w: -0.2481359}
+  m_LocalRotation: {x: -0.046460535, y: 0.95108247, z: -0.17807904, w: -0.24813591}
   m_LocalPosition: {x: 11.963766, y: 10.503618, z: -12.632645}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -925,11 +924,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1142051390 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9053090411912054622, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
-  m_PrefabInstance: {fileID: 9053090413053810016}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1152403635
 GameObject:
   m_ObjectHideFlags: 3
@@ -1088,7 +1082,7 @@ GameObject:
   - component: {fileID: 1207590429}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1186,12 +1180,6 @@ MonoBehaviour:
   _controller: {fileID: 1207590430}
   _moveSpeed: 5
   _rotateSpeed: 30
-  _iD: 0
-  _triggers:
-  - {fileID: 1142051390}
-  - {fileID: 1935946271}
-  - {fileID: 348687810}
-  - {fileID: 1657383106}
 --- !u!143 &1207590430
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1243,7 +1231,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 11
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 1207590428}
   m_Follow: {fileID: 1207590428}
@@ -1352,6 +1340,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
+      propertyPath: _assignedCamera
+      value: 
+      objectReference: {fileID: 446319013}
+    - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
       propertyPath: _cameras.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -1425,16 +1417,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
---- !u!1 &1657383106 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9053090411912054622, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
-  m_PrefabInstance: {fileID: 2107530588}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1935946271 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9053090411912054622, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
-  m_PrefabInstance: {fileID: 1389453424}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2035952306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
+      propertyPath: _assignedCamera
+      value: 
+      objectReference: {fileID: 1312814808}
     - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
       propertyPath: _cameras.Array.size
       value: 4
@@ -1579,6 +1565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
+      propertyPath: _assignedCamera
+      value: 
+      objectReference: {fileID: 1009374222}
     - target: {fileID: 3842060517286098808, guid: a32be3b5002540b4690ce737e2ffb211, type: 3}
       propertyPath: _cameras.Array.size
       value: 4
