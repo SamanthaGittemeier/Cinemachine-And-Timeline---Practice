@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Virtual Camera
   - Trigger
+  - CinemachineTarget
+  - Security Camera
   layers:
   - Default
   - TransparentFX
