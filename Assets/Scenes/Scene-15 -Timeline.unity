@@ -620,7 +620,8 @@ PlayableDirector:
   - key: {fileID: -2885846188569032378, guid: df43c65de117664499fbdccc75785343, type: 2}
     value: {fileID: 760595718}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 486c0f01a84b373468a9969d194e9f4f: {fileID: 837076997}
 --- !u!1001 &1686970804
 PrefabInstance:
   m_ObjectHideFlags: 0
