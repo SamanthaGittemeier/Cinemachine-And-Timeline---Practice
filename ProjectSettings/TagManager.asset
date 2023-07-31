@@ -8,6 +8,7 @@ TagManager:
   - Trigger
   - CinemachineTarget
   - Security Camera
+  - Diamond
   layers:
   - Default
   - TransparentFX
